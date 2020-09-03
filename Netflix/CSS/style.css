@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #000000;
+    font-family: Helvetica;
+}
+.hero{
+    width: 100vw;
+    height: 88vh;
+    background: #333333;
+    border-bottom:#333 solid 8px;
+}
+.hero-showcase {
+    height: 100%;
+    width: 100%;
+    background-image: url(/img/main-background.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+.hero-shader {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0px 0px 300px -5px rgba(0,0,0,0.95);
+    position: relative;
+}
+.logo img {
+    position: absolute;
+    width: 180px;
+    left: 45px;
+    top: 25px;
+}
+
+.logo {
+    display: flex;
+}
+.logo a {
+    padding: 6px 15px;
+    background: #e50914;
+    color: white;
+    border: solid 1px#e50914;
+    border-radius: 2px;
+    font-size: 17px;
+    position: absolute;
+    right: 40px;
+    top: 25px;
+    font-family: Helvetica; 
+    text-decoration: none;  
+}
+.hero-header {
+    color: white;
+    font-size: 28px;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 230px; 
+    transform: translate(-50%,0);
+     
+}
+.hero-header h1{
+    font-size:4rem;
+    line-height: 1.1;
+    margin: 15px;
+}
+.hero-header h3 {
+    font-size: 24px;
+}
+.hero-header p{
+    font-size: 20px;
+}
+
+.main-bottom {
+    position: absolute;
+    top: 600px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.btn-big {
+    padding: 10px 50px;
+    background: #e50914;
+    color: white;
+    border: solid 1px#e50914;
+    border-radius: 2px;
+    text-decoration: none;
+    font-size: 1.625rem;
+}
+.input {
+    display: block;
+    padding: 10px 10px;
+    width: 100%;
+}
